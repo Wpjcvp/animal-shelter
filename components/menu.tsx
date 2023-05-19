@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const MenuItem = ({ title, link }: { title: string; link: string }) => {
   return (
-    <Link className="px-5 py-5" href={link}>
+    <Link className="px-5 py-5 text-white" href={link}>
       {title}
     </Link>
   );
